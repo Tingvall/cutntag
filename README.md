@@ -11,7 +11,7 @@ The pipeline consist of the following processes:
 
 1. Unzip and Merge fastq
 2. FastQC - Untrimmed reads
-3. Read trimming (Trim Galore!) & FastQC of trimmed reads
+3. Read trimming ([`Trim Galore!`](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)) & FastQC of trimmed reads
 4. Alignment (Bowtie2)
 5. Duplicate removal (Picard)
 6. Sample stats & plots
