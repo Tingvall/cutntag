@@ -10,14 +10,14 @@ The peak calling is performed by [SEACR](https://github.com/FredHutch/SEACR), in
 The pipeline consist of the following processes:
 
 1. Unzip and Merge fastq
-2. FastQC - Untrimmed reads
+2. Reads QC - Untrimmed ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 3. Read trimming ([`Trim Galore!`](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)) & FastQC of trimmed reads
-4. Alignment (Bowtie2)
-5. Duplicate removal (Picard)
+4. Alignment ([`Bowtie2`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+5. Duplicate removal ([`picard`](https://broadinstitute.github.io/picard/)
 6. Sample stats & plots
 7. Filtering
 8. Sample correlation
-9. Peak calling (SEACR)
+9. Peak calling ([SEACR](https://github.com/FredHutch/SEACR))
 10. Peak calling stats & plots
 11. BigWig generation
 
