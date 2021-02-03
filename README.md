@@ -17,7 +17,7 @@ The pipeline consist of the following processes:
 6. Sample stats & plots
 7. Filtering
 8. Sample correlation
-9. Peak calling (`SEACR](https://github.com/FredHutch/SEACR))
+9. Peak calling ([`SEACR`](https://github.com/FredHutch/SEACR))
 10. Peak calling stats & plots
 11. BigWig generation
 
